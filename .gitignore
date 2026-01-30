@@ -1,0 +1,9 @@
+cat <<EOF > .gitignore
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+*.pt
+*.zip
+EOF
