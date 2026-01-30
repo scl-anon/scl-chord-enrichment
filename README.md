@@ -7,16 +7,10 @@ This repository contains the official implementation of the paper:
 
 ---
 
-## Abstract
-Chord progression reharmonization is a common practice in various musical contexts, including reinterpretations, live arrangements,
-and creative performances. The goal is to enrich simple harmonic sequences with more complex and harmonically richer variations. In
-this work, we propose SCL, a semi-supervised Conditional Variational Autoencoder (CVAE) with LSTM layers, trained on symbolic music
-data in MIDI format. SCL transforms basic progressions into harmonically enriched versions by applying musical transformations—such
-as added tensions and functional substitutions—while maintaining tonal coherence. Unlike existing approaches, SCL does not depend
-on the initial melody but uses only the input chord progression, enabling a structured and interpretable representation of chords and
-their modifications. We evaluate SCL on a dataset of manually enriched MIDI progressions, using data augmentation via transposition.
-Results show that SCL generates harmonically rich and perceptually complex progressions, achieving performance comparable to
-human reharmonizations and surpassing some approaches reported in the literature, under both objective and subjective evaluations.
+# Abstract
+
+Chord progression reharmonization is a common practice in various musical contexts, including reinterpretations, live arrangements, and creative performances. The goal is to enrich simple harmonic sequences with more complex and harmonically richer variations. In this work, we propose SCL, a semi-supervised Conditional Variational Autoencoder (CVAE) with LSTM layers, trained on symbolic music data in MIDI format. SCL transforms basic progressions into harmonically enriched versions by applying musical transformations—such as added tensions and functional substitutions—while maintaining tonal coherence. Unlike existing approaches, SCL does not depend on the initial melody but uses only the input chord progression, enabling a structured and interpretable representation of chords and their modifications. We evaluate SCL on a dataset of manually enriched MIDI progressions, using data augmentation via transposition. Results show that SCL generates harmonically rich and perceptually complex progressions, achieving performance comparable to human reharmonizations and surpassing some approaches reported in the literature, under both objective and subjective evaluations.
+
 ---
 
 ## Repository structure
