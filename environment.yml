@@ -1,0 +1,14 @@
+name: scl
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch=2.5.1
+  - numpy
+  - pandas
+  - scikit-learn
+  - pip
+  - pip:
+      - pretty-midi==0.2.11
+      - music21==9.9.1
